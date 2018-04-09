@@ -3,4 +3,13 @@
   <groupId>nordsoft</groupId>
   <artifactId>dubboConsumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+<dependencies>
+<dependency>
+    <groupId>com.alibaba.boot</groupId>
+    <artifactId>dubbo-spring-boot-starter</artifactId>
+    <version>0.1.0</version>
+</dependency>
+</dependencies>
+
 </project>

@@ -1,6 +1,6 @@
 package dubboProvider;
 
-public interface DemoService {
+public interface HelloService {
 
     String sayHello(String name);
 
