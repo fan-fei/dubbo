@@ -3,13 +3,22 @@
   <groupId>nordsoft</groupId>
   <artifactId>dubboConsumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-<dependencies>
-    <dependency>
-        <groupId>com.alibaba.spring.boot</groupId>
-        <artifactId>dubbo-spring-boot-starter</artifactId>
-        <version>2.0.0</version>
-    </dependency>
-</dependencies>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.9.RELEASE</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>com.alibaba.boot</groupId>
+			<artifactId>dubbo-spring-boot-starter</artifactId>
+			<version>0.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
 
 </project>

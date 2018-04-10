@@ -9,7 +9,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 @RestController
 public class HelloController {
 
-    @Reference(url = "dubbo://192.168.0.80:20880")
+    @Reference(version = "1.0.0", application = "${dubbo.application.id}", url = "dubbo://192.168.0.80:12345")
     private HelloService helloService;
 
     @RequestMapping("/sayHello")
