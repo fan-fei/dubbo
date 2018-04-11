@@ -11,7 +11,9 @@ import nordsoft.service.HelloService;
 @RestController
 public class HelloController {
 
-    @Reference(version = "1.0.0", application = "${dubbo.application.id}", url = "dubbo://localhost:12345")
+    // @Reference(version = "1.0.0", application = "${dubbo.application.id}",
+    // url = "dubbo://localhost:12345")
+    @Reference(version = "1.0.0", application = "${dubbo.application.id}")
     private HelloService helloService;
 
     @RequestMapping("/sayHello")
