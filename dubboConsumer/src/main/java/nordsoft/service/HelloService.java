@@ -1,4 +1,4 @@
-package dubboProvider;
+package nordsoft.service;
 
 public interface HelloService {
 

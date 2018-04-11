@@ -1,4 +1,4 @@
-package dubboProvider;
+package nordsoft.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 

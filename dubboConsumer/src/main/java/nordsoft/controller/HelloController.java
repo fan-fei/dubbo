@@ -1,10 +1,12 @@
-package dubboConsumer;
+package nordsoft.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+
+import nordsoft.service.HelloService;
 
 @RestController
 public class HelloController {
